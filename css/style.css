@@ -1,0 +1,25 @@
+#cabecera {
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: solid 2px #000;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	vertical-align: middle;
+	display: table-cell;
+	background-image: linear-gradient(bottom, rgb(98,115,48) 22%, rgb(191,191,67) 61%, rgb(240,226,156) 75%);
+	background-image: -o-linear-gradient(bottom, rgb(98,115,48) 22%, rgb(191,191,67) 61%, rgb(240,226,156) 75%);
+	background-image: -moz-linear-gradient(bottom, rgb(98,115,48) 22%, rgb(191,191,67) 61%, rgb(240,226,156) 75%);
+	background-image: -webkit-linear-gradient(bottom, rgb(98,115,48) 22%, rgb(191,191,67) 61%, rgb(240,226,156) 75%);
+	background-image: -ms-linear-gradient(bottom, rgb(98,115,48) 22%, rgb(191,191,67) 61%, rgb(240,226,156) 75%);
+	
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.22, rgb(98,115,48)),
+		color-stop(0.61, rgb(191,191,67)),
+		color-stop(0.75, rgb(240,226,156))
+	);
+}
